@@ -13,6 +13,7 @@
 	"documentTypes": {
 		"Actor":{
 			"personatge": {
+				"htmlFields": ["details.biography.value", "details.biography.public"]
 			}
 		}
 	}
