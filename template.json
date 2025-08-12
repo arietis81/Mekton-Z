@@ -1,6 +1,6 @@
 {
 "Actor": {
-  "types": ["personatge"],
+  "personatge"
   "templates": {
     "transfondo": {
       "biografía": "",
@@ -10,7 +10,7 @@
 		"min": 2,
 		"value": 5,
 		"max": 10
-      },
+		},
 	  "tipo corporal (tc)": {
         "min": 2,
         "value": 5,
