@@ -1,0 +1,27 @@
+{
+    "name": "mektonz",
+    "title": "Mekton-Z",
+    "description": "My adapatation of Mekton-Z from R. Talsorian Games.","version": "0.0.1",
+    "templateVersion": 1,
+    "author": "Arietis",
+	"minimumCoreVersion": 13.347,
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
+    "packs": [],
+    "dependencies": [],
+    "languages": [
+        {
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json"
+        }
+    ],
+    "socket": false,
+    "initiative": "1d10 + @characteristics.reflejos.mod",
+    "gridDistance": 50,
+    "gridUnits": "m",
+    "url": "",
+    "manifest": "",
+    "download": ""
+}
