@@ -16,7 +16,7 @@
 				"htmlFields": ["details.biography.value", "details.biography.public"]
 			}
 		}
-	}
+	},
 	"grid": {
     "distance": 50,
     "units": "m"
