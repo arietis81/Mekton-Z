@@ -3,13 +3,14 @@
     "title": "Mekton-Z",
     "description": "My adapatation of Mekton-Z from R. Talsorian Games.",
 	"version": "0.0.1",
+		"compatibility":{
+		"minimum": "13.347"
+		"verified": "13"
+	},
     "author": "Arietis",
 	"url": "https://github.com/arietis81/Mekton-Z",
     "manifest": "https://github.com/arietis81/Mekton-Z/blob/main/system.json",
     "download": "https://github.com/arietis81/Mekton-Z/archive/refs/tags/pre-alpha.zip",
-	"compatibility":{
-		"minimum": "13.347"
-	},
 	"documentTypes": {
 		"Actor":{
 			"personatge": {
