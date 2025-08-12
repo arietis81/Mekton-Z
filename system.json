@@ -18,7 +18,7 @@
         }
     ],
     "socket": false,
-    "initiative": "1d10 + @characteristics.reflejos.mod",
+    "initiative": "1d10",
     "gridDistance": 50,
     "gridUnits": "m",
     "url": "https://github.com/arietis81/Mekton-Z",
