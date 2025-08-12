@@ -10,13 +10,7 @@
     "styles": [],
     "packs": [],
     "dependencies": [],
-    "languages": [
-        {
-            "lang": "es",
-            "name": "Español",
-            "path": "lang/es.json"
-        }
-    ],
+    "languages": [],
     "socket": false,
     "initiative": "1d10",
     "gridDistance": 50,
