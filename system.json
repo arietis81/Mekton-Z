@@ -9,7 +9,7 @@
     "download": "https://github.com/arietis81/Mekton-Z/archive/refs/tags/pre-alpha.zip",
 	"compatibility":{
 		"minimum": "13.347"
-	}
+	},
 	"documentTypes": {
 		"Actor":{
 			"personatge": {
