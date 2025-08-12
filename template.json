@@ -1,275 +1,205 @@
 {
 "Actor": {
-  "personatge"
+  "types": ["personaje"],
   "templates": {
-    "transfondo": {
-      "biografía": "",
+    "base": {
+		"nombre": "",
+		"apellido": "",
+		"biografía": "",
     },
-	"características": {
-		"atractivo (a)": {
-		"min": 2,
-		"value": 5,
-		"max": 10
+	"personaje": {
+		"templates": ["base"],
+		"características": {
+			"atractivo (a)": {
+				"value": 5
+			},
+			"tipo corporal (tc)": {
+				"value": 5
+			},
+			"frialdad (f)": {
+				"value": 5
+			},
+			"empatía (em)": {
+				"value": 5
+			},
+			"inteligencia (i)": {
+				"value": 5
+			},
+			"educación (ed)": {
+				"value": 5
+			},
+			"suerte (s)": {
+				"value": 5
+			},
+			"movimiento (m)": {
+				"value": 5
+			},
+			"reflejos (r)": {
+				"value": 5
+			},
+			"técnica (t)": {
+				"value": 5
+			}
 		},
-	  "tipo corporal (tc)": {
-        "min": 2,
-        "value": 5,
-        "max": 10
-      },
-	  "frialdad (f)": {
-        "min": 2,
-        "value": 5,
-        "max": 10
-      },
-	  "empatía (em)": {
-        "min": 2,
-        "value": 5,
-        "max": 10
-      },
-      "inteligencia (i)": {
-        "min": 2,
-        "value": 5,
-        "max": 10
-      },
-	  "educación (ed)": {
-        "min": 2,
-        "value": 5,
-        "max": 10
-      },
-	  "suerte (s)": {
-        "min": 2,
-        "value": 5,
-        "max": 10
-      },
-	  "movimiento (m)": {
-        "min": 2,
-        "value": 5,
-        "max": 10
-      },
-	  "reflejos (r)": {
-        "min": 2,
-        "value": 5,
-        "max": 10
-      },
-	  "técnica": {
-        "min": 2,
-        "value": 5,
-        "max": 10
-      }
-    },
-	"habilidades": {
-      "(a) arreglo personal": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(a) vestuario y estilo": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(f) conocimiento de la calle": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(f) interrogatorio": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(f) intimidar": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(f) persuasión y labia": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(f) resistir tortura/drogas": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(em) actuar": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(em) entrevista": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(em) liderazgo": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(em) percepción humana": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(em) seducción": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(em) vida social": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(i) advertir/notar": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(i) composición": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(i) conocer otro idioma": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(i) disfraz": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(i) enseñar": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(i) esconderse/evadir": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(i) experto": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(i) juego": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(i) programar": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(i) supervivencia": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(r) atletismo": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(r) baile": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(r) conducir": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(r) gravedad cero": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(r) nadar": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(r) pilotar avión/aeronave": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(r) sigilo": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(rcp) arma automática": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(rcp) combate sin armas": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(rcp) esgrima": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(rcp) esquivar y eludir": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(rcp) pistola": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(rcp) fusil": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(rcm) combate cuerpo a cuerpo mecha ": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(rcm) artillería mecha": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(rcm) lanzamiento de misiles mecha": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(rcm) lucha mecha": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(rcm) pilotar mecha": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(t) abrir cerraduras": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(t) diseño de mecha": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(t) fotografía y filmación": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(t) medicina": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(t) pintar y dibujar": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(t) primeros auxilios": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(t) reparación básica": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(t) robar bolsillos": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(t) tecnología mecha": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(t) tocar instrumento": {
-		"min": 2,
-		"max": 20
-	  },
-	  "(t) chapuza": {
-		"min": 2,
-		"max": 20
-	  },
-    },
+		"habilidades": {
+			"(a) arreglo personal": {
+				"value": 5
+			},
+			"(a) vestuario y estilo": {
+				"value": 5
+			},
+			"(f) conocimiento de la calle": {
+				"value": 5
+			},
+			"(f) interrogatorio": {
+				"value": 5
+			},
+			"(f) intimidar": {
+				"value": 5
+			},
+			"(f) persuasión y labia": {
+				"value": 5
+			},
+			"(f) resistir tortura/drogas": {
+				"value": 5
+			},
+			"(em) actuar": {
+				"value": 5
+			},
+			"(em) entrevista": {
+				"value": 5
+			},
+			"(em) liderazgo": {
+				"value": 5
+			},
+			"(em) percepción humana": {
+				"value": 5
+			},
+			"(em) seducción": {
+				"value": 5
+			},
+			"(em) vida social": {
+				"value": 5
+			},
+			"(i) advertir/notar": {
+				"value": 5
+			},
+			"(i) composición": {
+				"value": 5
+			},
+			"(i) conocer otro idioma": {
+				"value": 5
+			},
+			"(i) disfraz": {
+				"value": 5
+			},
+			"(i) enseñar": {
+				"value": 5
+			},
+			"(i) esconderse/evadir": {
+				"value": 5
+			},
+			"(i) experto": {
+				"value": 5
+			},
+			"(i) juego": {
+				"value": 5
+			},
+			"(i) programar": {
+				"value": 5
+			},
+			"(i) supervivencia": {
+				"value": 5
+			},
+			"(r) atletismo": {
+				"value": 5
+			},
+			"(r) baile": {
+				"value": 5
+			},
+			"(r) conducir": {
+				"value": 5
+			},
+			"(r) gravedad cero": {
+				"value": 5
+			},
+			"(r) nadar": {
+				"value": 5
+			},
+			"(r) pilotar avión/aeronave": {
+				"value": 5
+			},
+			"(r) sigilo": {
+				"value": 5
+			},
+			"(rcp) arma automática": {
+				"value": 5
+			},
+			"(rcp) combate sin armas": {
+				"value": 5
+			},
+			"(rcp) esgrima": {
+				"value": 5
+			},
+			"(rcp) esquivar y eludir": {
+				"value": 5
+			},
+			"(rcp) pistola": {
+				"value": 5
+			},
+			"(rcp) fusil": {
+				"value": 5
+			},
+			"(rcm) combate cuerpo a cuerpo mecha ": {
+				"value": 5
+			},
+			"(rcm) artillería mecha": {
+				"value": 5
+			},
+			"(rcm) lanzamiento de misiles mecha": {
+				"value": 5
+			},
+			"(rcm) lucha mecha": {
+				"value": 5
+			},
+			"(rcm) pilotar mecha": {
+				"value": 5
+			},
+			"(t) abrir cerraduras": {
+				"value": 5
+			},
+			"(t) diseño de mecha": {
+				"value": 5
+			},
+			"(t) fotografía y filmación": {
+				"value": 5
+			},
+			"(t) medicina": {
+				"value": 5
+			},
+			"(t) pintar y dibujar": {
+				"value": 5
+			},
+			"(t) primeros auxilios": {
+				"value": 5
+			},
+			"(t) reparación básica": {
+				"value": 5
+			},
+			"(t) robar bolsillos": {
+				"value": 5
+			},
+			"(t) tecnología mecha": {
+				"value": 5
+			},
+			"(t) tocar instrumento": {
+				"value": 5
+			},
+			"(t) chapuza": {
+				"value": 5
+			},
+		},
+	},
   },
-  "personatge": {
-    "templates": ["transfondo", "características", "habilidades"]
-  }
 }
 }

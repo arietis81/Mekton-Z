@@ -2,7 +2,7 @@
     "id": "mektonz",
     "title": "Mekton-Z",
     "description": "My adapatation of Mekton-Z from R. Talsorian Games.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 		"compatibility":{
 		"minimum": "13.347"
 		"verified": "13"
@@ -13,11 +13,13 @@
     "download": "https://github.com/arietis81/Mekton-Z/archive/refs/tags/pre-alpha.zip",
 	"documentTypes": {
 		"Actor":{
-			"personatge": {
-				"htmlFields": ["details.biography.value", "details.biography.public"]
+			"personaje": {
+				"htmlFields": ["base.biografía.value", "base.biografía.public"]
 			}
 		}
 	},
+	"socket": false,
+	"initiative": "1d10",
 	"grid": {
     "distance": 50,
     "units": "m"
