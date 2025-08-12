@@ -1,8 +1,8 @@
 {
     "id": "mektonz",
     "title": "Mekton-Z",
-    "description": "My adapatation of Mekton-Z from R. Talsorian Games.","version": "0.0.1",
-    "templateVersion": 1,
+    "description": "My adapatation of Mekton-Z from R. Talsorian Games.",
+	"version": "0.0.1",
     "author": "Arietis",
 	"url": "https://github.com/arietis81/Mekton-Z",
     "manifest": "https://github.com/arietis81/Mekton-Z/blob/main/system.json",
