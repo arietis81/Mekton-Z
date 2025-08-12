@@ -10,14 +10,14 @@
 	"compatibility":{
 		"minimum": "13.347"
 	}
-    "scripts": [],
-    "esmodules": [],
-    "styles": [],
-    "packs": [],
-    "dependencies": [],
-    "languages": [],
-    "socket": false,
-    "initiative": "1d10",
-    "gridDistance": 50,
-    "gridUnits": "m"
+	"documentTypes": {
+		"Actor":{
+			"personatge": {
+			}
+		}
+	}
+	"grid": {
+    "distance": 50,
+    "units": "m"
+  },
 }
