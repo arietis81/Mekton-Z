@@ -4,6 +4,9 @@
     "description": "My adapatation of Mekton-Z from R. Talsorian Games.","version": "0.0.1",
     "templateVersion": 1,
     "author": "Arietis",
+	"url": "https://github.com/arietis81/Mekton-Z",
+    "manifest": "https://github.com/arietis81/Mekton-Z/blob/main/system.json",
+    "download": "https://github.com/arietis81/Mekton-Z/archive/refs/tags/pre-alpha.zip",
 	"minimumCoreVersion": 13.347,
     "scripts": [],
     "esmodules": [],
@@ -14,8 +17,5 @@
     "socket": false,
     "initiative": "1d10",
     "gridDistance": 50,
-    "gridUnits": "m",
-    "url": "https://github.com/arietis81/Mekton-Z",
-    "manifest": "https://github.com/arietis81/Mekton-Z/blob/main/system.json",
-    "download": "https://github.com/arietis81/Mekton-Z/archive/refs/tags/pre-alpha.zip"
+    "gridUnits": "m"
 }
