@@ -10,18 +10,5 @@
     "author": "Arietis",
 	"url": "https://github.com/arietis81/Mekton-Z",
     "manifest": "https://github.com/arietis81/Mekton-Z/blob/main/system.json",
-    "download": "https://github.com/arietis81/Mekton-Z/archive/refs/tags/pre-alpha.zip",
-	"documentTypes": {
-		"Actor":{
-			"personaje": {
-				"htmlFields": ["base.biografía.value", "base.biografía.public"]
-			}
-		}
-	},
-	"socket": false,
-	"initiative": "1d10",
-	"grid": {
-    "distance": 50,
-    "units": "m"
-  }
+    "download": "https://github.com/arietis81/Mekton-Z/archive/refs/tags/pre-alpha.zip"
 }
